@@ -5,7 +5,7 @@ if(ANDROID)
     target_link_libraries(tun2socks base system flow tuntap lwip socksclient udpgw_client ancillary log)
     set_target_properties(tun2socks PROPERTIES PREFIX "lib" SUFFIX ".so")
 
- else()
+else()
 
 add_executable(badvpn-tun2socks
     tun2socks.c
