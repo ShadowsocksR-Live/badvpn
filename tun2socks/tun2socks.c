@@ -757,7 +757,6 @@ void print_help (const char *name)
         "        [--channel-loglevel <channel-name> <0-5/none/error/warning/notice/info/debug>] ...\n"
 #ifdef __ANDROID__
         "        [--fake-proc]\n"
-        "        [--tunfd <fd>]\n"
         "        [--tunmtu <mtu>]\n"
         "        [--dnsgw <dns_gateway_address>]\n"
         "        [--pid <pid_file>]\n"
